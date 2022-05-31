@@ -1,0 +1,156 @@
+body{
+    background-color:rgb(143, 69, 69);
+    margin: 0;
+        }
+header, .menus{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: white;
+    padding-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 30px;
+}
+.logo{
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+a, ul, nav{ 
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 30px;
+    font-size: x-large;
+    color: rgba(212, 157, 226, 0.952);    
+    display: flex;
+    list-style-type: none;       
+    
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.section1{
+    display: flex;
+    display: inline-block
+    
+}
+.galeria{
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.galeria1{
+      flex-direction:row;
+      display: flex;
+      
+    }
+p{
+    display: flex;
+    margin-left:100px;   
+    margin-right: 50px;
+}
+
+/*Dispocision de los diferentes menus*/
+   
+.comidas1{
+   display: flex;
+   justify-content: space-around;  
+                
+}
+.milas{      
+    display: flex;
+    justify-content: space-around;
+         
+}
+.helados{
+       display: flex;
+       justify-content: space-around;
+}
+.bebidascysin{
+       display: flex;
+       justify-content: space-around;
+}
+.imagenPromos{
+       display: flex;   
+       justify-content: space-around;
+}
+h2{
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(212, 157, 226, 0.952);   
+    margin-top: 30px;
+    }
+p{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    color: white;
+}
+
+.redes, .links{      
+     margin-left: 40px;
+     justify-content: center;
+     display: flex;
+     }
+
+footer{
+    background-color: cadetblue;
+    list-style-type: none;
+    margin-top: 1px;
+    color: chocolate;
+    text-decoration: none;
+    }
+
+.iconoface{
+    width: 45px;
+    padding-top: 10px;
+}
+h3{
+    color: rgba(212, 157, 226, 0.952);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    
+}
+button{
+    margin-left: 30px;
+    box-shadow: aquamarine;
+    background-color: bisque;
+
+}
+.precio{
+    background-color:rgb(143, 69, 69);
+    color: rgba(212, 157, 226, 0.952);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    
+}
+img{ 
+    width: 350px;
+    padding-left: 30px;
+}
+
+
+
+ /* resposive*/
+
+
+ @media screen and (max-width: 479px) {
+
+    header, .menus, ul{
+        flex-direction: column;
+        background-color: aqua;
+        justify-content: space-around;
+        padding-left: 10px;
+        
+    }
+    .section1{
+
+    }
+}
