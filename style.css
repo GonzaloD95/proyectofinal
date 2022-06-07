@@ -1,24 +1,17 @@
 body{
-    background-color:rgb(143, 69, 69);
+    background-image: url(./img/olas_1920x3404_xtrafondos.com.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
         }
-header, .menus{
+.container1{
     display: flex;
-    background-color: grey;
-    justify-content: space-between;
+    background-image: url("img/Diseño\ sin\ título\ \(1\).png");    
     align-items: center;
-}
-h1{
-    color: white;
-    padding-right: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    font-size: 30px;
-}
-.logo{
-    display: flex;
-    width: 60px;
-    height: 60px;
-}
+    justify-content: space-around;
+
+}  
 a, ul, nav{ 
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -29,70 +22,147 @@ a, ul, nav{
     list-style-type: none;       
     
 }
+a:hover{
+    color: violet;
+}
+h1{
+    color:plum;
+    padding-right: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
 h2{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    margin-top: 10px;
+    background-image: url("img/Diseño\ sin\ título\ \(1\).png");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(212, 157, 226, 0.952);   
+    margin-top: 30px;
 }
-.section1{
-    display: flex;
-    display: inline-block
+h3{
+    color: plum;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    
     
 }
-.galeria{
-    width: 250px;
-    margin-left: 40px;
-    margin-top: 15px;
+h6{
+    margin-left: 30px;
+    font-size: larger;
+    color: plum;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
-.galeria1{
-      flex-direction:row;
-      display: flex;
-      
-    }
 p{
     display: flex;
     margin-left:100px;   
     margin-right: 50px;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;   
+    color: rgba(212, 157, 226, 0.952);
+    padding: 15px;
+    font-size: 30px;
+    
+}
+.boton{
+    margin-left: 30px;    
+    background-color:pink;
+    transition-duration: 0.4s;
+    border: none;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.boton:hover{
+    background-color: coral;
+    color: white;
 }
 
+
 /*Dispocision de los diferentes menus*/
+
+/* Grids */  
    
 .comidas1{
-   display: flex;
-   justify-content: space-around;  
+    display: grid;
+    justify-content:space-around;
+    grid-template-areas: "comidas comidas comidas comidas";
+ }
+ .comidas1{
+     grid-area: comidas;
+ }
                 
+
+.pyH{
+   display: grid;
+   justify-content: center;
+   grid-template-areas: "pizza pizza pizza pizza";
+
 }
+.pyh{
+    grid-area: pizza;
+}
+
 .milas{      
-    display: flex;
-    justify-content: space-around;
-         
+    display: grid; 
+    justify-content: center; 
+    grid-template-areas: "milanesas milanesas milanesas milanesas milanesas"; 
+}
+.Milanesa{
+    grid-area: milanesa;
+}
+.promos{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "area4 area5 area6" ;
+}
+.huevos{
+   grid-area: area4;
+}
+.egs{
+    grid-area: area5;    
+}
+.eggs{
+    grid-area: area6;
+}
+
+.salp{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "area3 area3 area3 area3 area3";
+}
+
+.salp{
+    grid-area: area3;   
+}
+
+
+.helados{
+       display: grid;
+       justify-content: center;
+      grid-template-areas: "icec icec icec icec icec";      
+       
 }
 .helados{
-       display: flex;
-       justify-content: space-around;
+    grid-area: icec;
+}
+
+.bebidascysin{
+       display: grid;
+       justify-content: center;
+       grid-template-areas: "drinks drinks drinks drinks"
 }
 .bebidascysin{
-       display: flex;
-       justify-content: space-around;
+    grid-area: drinks;
 }
 .imagenPromos{
        display: flex;   
        justify-content: space-around;
 }
-h2{
-    background-color: grey;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(212, 157, 226, 0.952);   
-    margin-top: 30px;
-    }
-p{
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: grey;
-    color: white;
-}
+
+
 
 .redes, .links{      
      margin-left: 40px;
@@ -101,31 +171,25 @@ p{
      }
 
 footer{
-    background-color: cadetblue;
-    list-style-type: none;
+    background-color: black;   
     margin-top: 1px;
     color: chocolate;
-    text-decoration: none;
+    text-decoration: none;    
     }
+ol{
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+}
 
 .iconoface{
     width: 45px;
     padding-top: 10px;
 }
-h3{
-    color: rgba(212, 157, 226, 0.952);
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 30px;
-    
-}
-button{
-    margin-left: 30px;
-    box-shadow: aquamarine;
-    background-color: bisque;
 
-}
-.precio{
-    background-color:rgb(143, 69, 69);
+
+.precio{   
     color: rgba(212, 157, 226, 0.952);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 30px;
@@ -137,20 +201,110 @@ img{
 }
 
 
+.iconoface{
+    transition: width 2s, height 2s;
+      
+}
+.iconoface:hover{
+     
+    width: 60px;
+}
 
- /* resposive*/
 
 
- @media screen and (max-width: 479px) {
 
-    header, .menus, ul{
+/************************Mediaqueries 480px**********************/
+
+@media all and (max-width: 600px){
+
+    .container1{
+        flex-direction: column;        
+    }
+    a, ul, nav{
         flex-direction: column;
-        background-color: aqua;
-        justify-content: space-around;
-        padding-left: 10px;
+        text-align: center;
+        font-size: medium;
+        padding-left: 20px;
+    }
+    h1{
+        font-size: 40px;
+        flex-direction: column;
+        padding-left: 100px;
         
     }
-    .section1{
+    p{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .comidas1{
+        justify-content: space-around;
+        grid-template-areas:"comidas"
+                            "comidas";
+    } 
+    .salp{
+        justify-content: space-around;
+       grid-template-areas: "area3";
+    } 
+    .pyH{
+        justify-content: space-around;
+        grid-template-areas: "pizza";         
+    } 
+    .milas{
+        justify-content: space-around;
+        grid-template-areas: "milanesa";
+    }
+        
+    h3{
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+    } 
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
+
+
+
+
+
+/************************Mediaqueries 768px**********************/
+
+
+@media (max-width: 768px){
+
+    .milas{
+        grid-template-areas:"milanesa milanesa";
+    }
+
+    .comidas1{
+        grid-template-areas:"comidas comidas";
+    }
+    .salp{
+        grid-template-areas:"area3 area3";
+    }
+
+    .pyH{
+        grid-template-areas:"pizza pizza";
+    }
+    .helados{
+        grid-template-areas:"icec icec";
+    }
+    .bebidascysin{
+        grid-template-areas:"drinks drinks";
+    }
+    .promos{
+        grid-template-areas:"area4 area4"
+                            "area5 area5"
+                            "area6 area6";
+    }
+    
+    a, ul, nav{
+        display: block;
     }
 }
