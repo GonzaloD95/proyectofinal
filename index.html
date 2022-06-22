@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
+    <meta name="description" content="La rosadita resto Comidas como en casa">
+    <meta name="keywords"  content="comida, casa, salta, comer, sanwich, centro, pizza, amigos, cerveza, comprar">   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">  
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">   
-    <link rel="manifest" href="/site.webmanifest">    
-    <title>LR</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Indie+Flower&family=Lobster&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>La Rosadita</title>
+    
 </head>
 <body>
 <header>
@@ -34,40 +38,80 @@
 </header>
  <br>
  <main>
- <section class="section1">
-         <h2>Quienes Somos</h2>
-         <br>        
-         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="./img/hmb.jpg" class="d-block w-100 mx-auto" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-              <img src="./img/hmb.jpg" class="d-block w-100 mx-auto" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-              <img src="./img/hmb.jpg" class="d-block w-100 mx-auto" alt="...">
-            </div>
-          </div>
-           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, laborum praesentium! Qui voluptas numquam non! Fugit blanditiis consectetur ipsam sunt, tempore atque officia officiis veritatis dolore adipisci nam ducimus? Deleniti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quia recusandae deserunt natus eveniet perferendis quas quibusdam quo neque vitae sapiente eaque sit, ducimus illo iure, odit perspiciatis cumque excepturi.</p>
-        </div>            
- </section>
+  <section class="section1">
+    <h2>Quienes Somos</h2>
+    <br>        
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active" data-bs-interval="10000">
+         <img src="./img/comida1.jpg" class="d-block w-100 mx-auto" alt="...">
+       </div>
+       <div class="carousel-item" data-bs-interval="10000">
+         <img src="./img/comida2.jpg" class="d-block w-100 mx-auto" alt="...">
+       </div>
+       <div class="carousel-item" data-bs-interval="10000">
+         <img src="./img/comida3.jfif" class="d-block w-100 mx-auto" alt="...">
+       </div>
+     </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+   <div>
+           <p class="text">Somos un restaurante familiar con mas de 20 años de experiencia, ubicados en el centro de nuestra hermosa ciudad queremos ofrecer comida realizada con amor para que se sientan en casa...</p>
+   </div>            
+</section>
+  <section class="menu2">
+    <div class="imageMenu">
+    <div data-aos="fade-right">
+    <div class="imageMenu_comidas">
+    <a href="./submenus/Comidas.html"><p class="text2">Comidas</p></a>
+    <a href="./submenus/Comidas.html"><img class="imgmenu2" src="./img/espagueti-bolonesa-1024x698.jpg" alt=""></a>
+    </div>
+    </div>
+    <div data-aos="fade-left">
+    <div class="imageMenu_pizzas">
+    <a href="./submenus/pys.html"><img class="imgmenu2" src="./img/pys.jpg" alt=""></a>
+    <a href="./submenus/pys.html"><p class="text2" >Pizzas y Sanwiches</p></a>
+  </div>
+  </div>
+  <div data-aos="fade-right">
+  <div class="imageMenu_minutas">    
+    <a href="./submenus/Minutas.html"><p class="text2">Minutas</p></a>
+    <a href="./submenus/Minutas.html"><img class="imgmenu2" src="./img/minutasimg.jfif"alt=""></a>
+  </div>
+  </div>
+  <div data-aos="fade-left">
+  <div class="imageMenu_postres">
+    <a href="./submenus/Postresyhelados.html"><img class="imgmenu2" src="./img/icecream.jpg" alt=""></a>
+    <a href="./submenus/Postresyhelados.html"><p class="text2" >Postres y Helados</p></a>
+  </div>
+  </div>
+  <div data-aos="fade-right">
+  <div class="imageMenu_bebidas">
+    <a href="./submenus/Bebidas.html"><p class="text2">Bebidas</p></a>
+    <a href="./submenus/Bebidas.html"><img class="imgmenu2" src="./img/bebidass.jfif" alt=""></a>
+  </div>
+  </div>
+  <div data-aos="fade-left">
+  <div class="imageMenu_especiales">
+    <a href="./submenus/Promosyespeciales.html"><img class="imgmenu2" src="./img/especiales.jpg" alt=""></a>
+    <a href="./submenus/Promosyespeciales.html"><p class="text2" >Promos y Especiales</p></a>
+  </div>
+</div>
+</div>
+  </section> 
   <section class="section2">
   <h2>Comidas</h2>  
     <div class="comidas1">
       <div>
         <h3>Ravioles</h3>
-        <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+        <img src="img/mila.webp" alt="ravioles"> 
         <h6>Tuco $400</h6>
         <h6>Peceto o Pollo $600</h6>
         <h6>Parisiene $700</h6>
@@ -75,7 +119,7 @@
       </div>
       <div>
         <h3>Tallarines</h3>
-        <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+        <img src="img/mila.webp" alt="tallarines"> 
         <h6>Tuco $400</h6>
         <h6>Peceto o Pollo $600</h6>
         <h6>Parisiene $700</h6>
@@ -83,7 +127,7 @@
       </div>
       <div>
         <h3>Sorrentinos</h3>
-        <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+        <img src="img/mila.webp" alt="sorrentinos"> 
         <h6>Tuco $400</h6>
         <h6>Peceto o Pollo $600</h6>
         <h6>Parisiene $700</h6>
@@ -91,7 +135,7 @@
       </div>
       <div>
         <h3>Ñoquis</h3>
-        <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+        <img src="img/mila.webp" alt="Ñoquis"> 
         <h6>Tuco $500</h6>
         <h6>Peceto o Pollo $700</h6>
         <h6>Parisiene $800</h6>
@@ -102,134 +146,134 @@
       <div class="salp">
           <div>
           <h3>Salpicon de Carne</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="salpicondecarne"> 
           <h6>$650</h6>     
            <button class="boton" type="submit">comprar</button> 
           </div> 
           <div>
-          <h3>Salpicon de Carne</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
-          <h6>$650</h6>       
+          <h3>Salpicon de Pollo</h3>
+          <img src="img/mila.webp" alt="Salpicondepollo"> 
+          <h6>$500</h6>       
            <button class="boton" type="submit">comprar</button> 
           </div> 
           <div>
-          <h3>Salpicon de Carne</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <h3>Salpicon de Atún</h3>
+          <img src="img/mila.webp" alt="Salpicondedeatun"> 
           <h6>$650</h6>         
            <button class="boton" type="submit">comprar</button> 
           </div> 
           <div>
-          <h3>Salpicon de Carne</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <h3>Salpicon de Mixto</h3>
+          <img src="img/mila.webp" alt="Salpiconmixto"> 
           <h6>$650</h6>
            <button class="boton" type="submit">comprar</button> 
           </div> 
           <div>
-          <h3>Salpicon de Carne</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
-          <h6>$650</h6>             
+          <h3>Salpicon de Vegetariano</h3>
+          <img src="img/mila.webp" alt="Salpiconvegetariano"> 
+          <h6>$500</h6>             
            <button class="boton" type="submit">comprar</button> 
           </div>
          </div>
      </div>
      </section>
      <section>
-      <h2>Pizzas Y Sanwiches</h2>  
+      <h2>Pizzas y Sanwiches</h2>  
       <div>
       <div class="pyH">
         <div>
           <h3>Comun</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizzacomun"> 
           <h6>Salsa, queso y aceitunas $600</h6>          
            <button class="boton" type="submit">comprar</button>          
         </div>
         <div>
           <h3>Especial</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizzaespecial"> 
           <h6>Salsa, queso, jamon y aceitunas $700</h6>         
            <button class="boton" type="submit">comprar</button>          
         </div>
         <div>
           <h3>Napolitana</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizzanapolitana"> 
           <h6>Salsa, queso, tomate y aceitunas $700</h6>        
            <button class="boton" type="submit">comprar</button>          
         </div>       
         <div>
           <h3>Napolitana Especial</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizzanapolitanaespecial"> 
           <h6>Salsa, queso, tomate, jamon y aceitunas $800</h6>        
            <button class="boton" type="submit">comprar</button>          
         </div>
         <div>
           <h3>Pollo</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizzadepollo"> 
           <h6>Salsa,queso,pollo, salsa golf y aceitunas $800</h6>        
            <button class="boton" type="submit">comprar</button>          
         </div>
         <div>
           <h3>Calabresa</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizacalabresa"> 
           <h6>Salsa,queso, cantimpalo y aceitunas $850</h6>        
            <button class="boton" type="submit">comprar</button>          
         </div>
         <div>
           <h3>Rosadita</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizzarosadita"> 
           <h6>Salsa,queso, ternera,huevopicado y aceitunas $900</h6>        
            <button class="boton" type="submit">comprar</button>          
         </div>
         <div>
           <h3>Ternera</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizadeternera"> 
           <h6>Salsa,queso, ternera, tomate y aceitunas $900</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div>
         <div>
           <h3>Lomo pizza</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="pizzalomopizza"> 
           <h6>Carne, jamón, tomate,queso y huevo $1500</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div>  
         <div>
           <h3>Milanesa super</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="milanesasuper"> 
           <h6>Milanesa, verduras, huevo, jamón, queso y papas $700</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div> 
         <div>
           <h3>Lomito super</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="lomitosuper"> 
           <h6>Carne, verduras,huevo, jamón ,queso y papas $700</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div> 
         <div>
-          <h3>Napolitano super</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <h3>Napolitana super</h3>
+          <img src="img/mila.webp" alt="napolitanasuper"> 
           <h6>Milanesa consalsa y queso cremoso $700</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div> 
         <div>
           <h3>Patynesa super</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="patynesasuper"> 
           <h6>Patynesa, verduras, huevo, jamón, queso y papas $700</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div> 
         <div>
           <h3>Hamburguesa super</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="Hamburguesasuper"> 
           <h6>Paty, verduras, huevo, jamón, queso  y papas $700</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div> 
         <div>
           <h3>Chacarero de ternera</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="chacarerodeternera"> 
           <h6>Ternera, queso, tomate y huevo $800</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div> 
         <div>
           <h3>Chacarero de lomo</h3>
-          <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+          <img src="img/mila.webp" alt="chacarerodelomo"> 
           <h6>Lomo, queso, tomate y huevo $900</h6>        
            <button class="boton" type="submit">comprar</button>                
         </div>      
@@ -241,72 +285,72 @@
         <div class="milas">
             <div class="milanesa">
               <h3>Milanesa</h3>
-              <img src="img/mila.webp" alt="platodemilaconhuevo"> 
+              <img src="img/mila.webp" alt="milanesaalplato"> 
               <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6> 
+              <h6>Completo $800</h6> 
                <button class="boton" type="submit">comprar</button>          
             </div>
             <div class="milanesa">
               <h3>Milanesa a la napolitana</h3>
-              <img src="img/mila.webp" alt="platodemilaconhuevo"> 
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6> 
+              <img src="img/mila.webp" alt="milanesanapolitana"> 
+              <h6>C/Guarnicion $800</h6>
+              <h6>Completo $900</h6> 
                <button class="boton" type="submit">comprar</button>            
             </div>
             <div>
               <h3>Matambre a la napolitana</h3>
-              <img src="./img/mila.webp" alt="">
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6>
+              <img src="./img/mila.webp" alt="matambrealplato">
+              <h6>C/Guarnicion $900</h6>
+              <h6>Completo $1000</h6>
                <button class="boton" type="submit">comprar</button>
             </div>
             <div>
               <h3>Napolitana</h3>
-              <img src="img/mila.webp" alt="platodemilaconhuevo">                   
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6>
+              <img src="img/mila.webp" alt="napolitana">                   
+              <h6>C/Guarnicion $800</h6>
+              <h6>Completo $900</h6>
                <button class="boton" type="submit">comprar</button>
             </div>
             <div>
               <h3>Costeleta</h3>
               <img src="img/mila.webp" alt="platodemilaconhuevo">  
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6> 
+              <h6>C/Guarnicion $650</h6>
+              <h6>Completo $750</h6> 
                <button class="boton" type="submit">comprar</button>        
             </div>           
             <div>
               <h3>Matambre</h3>
               <img src="img/mila.webp" alt="platodemilaconhuevo">
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6>
+              <h6>C/Guarnicion $800</h6>
+              <h6>Completo $900</h6>
                <button class="boton" type="submit">comprar</button>
             </div> 
             <div>
               <h3>Matambre de cerdo</h3>
               <img src="img/mila.webp" alt="platodemilaconhuevo">
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6>
+              <h6>C/Guarnicion $650</h6>
+              <h6>Completo $750</h6>
                <button class="boton" type="submit">comprar</button>
             </div> 
             <div>
               <h3>Suprema de pollo</h3>
               <img src="img/mila.webp" alt="platodemilaconhuevo">
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6>
+              <h6>C/Guarnicion $650</h6>
+              <h6>Completo $750</h6>
                <button class="boton" type="submit">comprar</button>
             </div> 
             <div>
               <h3>Bife de pollo</h3>
               <img src="img/mila.webp" alt="platodemilaconhuevo">
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6>
+              <h6>C/Guarnicion $600</h6>
+              <h6>Completo $750</h6>
                <button class="boton" type="submit">comprar</button>
             </div> 
             <div>
               <h3>Pollo al horno</h3>
               <img src="img/mila.webp" alt="platodemilaconhuevo">
-              <h6>C/Guarnicion $700</h6>
-              <h6>Completo $700</h6>
+              <h6>C/Guarnicion $800</h6>
+              <h6>Completo $900</h6>
                <button class="boton" type="submit">comprar</button>
             </div>                               
          </div>         
@@ -345,7 +389,7 @@
                  <button class="boton" type="submit">comprar</button>          
               </div>
               <div>
-                <h3>Panqueques con dulce de leche</h3>
+                <h3>Panqueques c/ dulce de leche</h3>
                 <img src="img/mila.webp" alt="platodemilaconhuevo"> 
                 <h6>$250</h6>          
                  <button class="boton" type="submit">comprar</button>          
@@ -411,48 +455,157 @@
             <h2>Bebidas</h2>
             <div class="bebidascysin">
             <div>
-              <h3>Coca Cola</h3>
-              <img src="img/gaseosas.jpg" alt="platodemilaconhuevo">              
+              <h3>Coca Cola de 500cc</h3>
+              <img class="img2" src="img/cocacola500.png" alt="cocacola500">              
+              <h6>$150</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div>
+            <div>
+              <h3>Coca Cola Zero de 500cc</h3>
+              <img src="img/cocazero500.jfif" alt="cocazero500">              
+              <h6>$150</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div>       
+            <div>
+              <h3>Fanta de 500cc</h3>
+              <img src="img/fanta500.jpg" alt="fantanaranja500">              
+              <h6>$150</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div>       
+            <div>
+              <h3>Sprite de 500cc</h3>
+              <img src="img/spirte500.jpg" alt="spritede500">              
+              <h6>$150</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div>       
+            <div>
+              <h3>Coca Cola de 1L</h3>
+              <img src="img/cocadlitro.jpg" alt="cocadevidriodelitro">              
               <h6>$300</h6>
                <button class="boton" type="submit">comprar</button>
             </div>       
             <div>
-              <h3>Sprite</h3>
-              <img src="img/gaseosas.jpg" alt="platodemilaconhuevo">              
+              <h3>Fanta de 1L</h3>
+              <img src="img/fantadlitro.jfif" alt="fantadelitrodevidrio">              
               <h6>$300</h6>
                <button class="boton" type="submit">comprar</button>
-            </div>     
+            </div>       
             <div>
-              <h3>Cerveza Salta</h3>
-              <img src="img/gaseosas.jpg" alt="platodemilaconhuevo">              
+              <h3>Sprite de 1L</h3>
+              <img src="img/spritedlitro.png" alt="spritedelitrodevidrio">              
               <h6>$300</h6>
                <button class="boton" type="submit">comprar</button>
-            </div>     
+            </div>       
             <div>
-              <h3>Cerveza Quilmes</h3>
-              <img src="img/gaseosas.jpg" alt="platodemilaconhuevo">              
+              <h3>Coca Cola de 1.5L</h3>
+              <img src="img/coca1.5.jfif" alt="coca1.5l">              
+              <h6>$400</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div>       
+            <div>
+              <h3>Fanta de 1.5L</h3>
+              <img src="img/fanta 1.5.jpg" alt="fantade1.5l">              
+              <h6>$400</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div>       
+
+            <div>
+              <h3>Sprite de 1.5L</h3>
+              <img src="img/sprite1.5.jfif" alt="sprite1.5l">              
               <h6>$400</h6>
                <button class="boton" type="submit">comprar</button>
             </div>     
+            <div>
+              <h3>Cerveza Salta Rubia</h3>
+              <img class="img2" src="img/saltalitro.jpg" alt="cervezasaltarubia">              
+              <h6>$400</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div>     
+            <div>
+              <h3>Cerveza Salta Negra</h3>
+              <img class="img2" src="img/saltanegra.jpg" alt="cervezasaltanegra">              
+              <h6>$400</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Cerveza Salta Roja</h3>
+              <img class="img2" src="img/saltaroja.jpg" alt="cervezasaltaroja">              
+              <h6>$400</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Cerveza Heineken</h3>
+              <img src="img/heinken.jpg" alt="cervezaheineken">              
+              <h6>$550</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Cerveza Imperial</h3>
+              <img src="img/imperial.jfif" alt="cervezaimperial">              
+              <h6>$500</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Cerveza Imperial Negra</h3>
+              <img src="img/imperial negra.jfif" alt="cervezaimperialnegra">              
+              <h6>$500</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Vino Cafayate</h3>
+              <img class="img2" src="img/cafayate.jpeg" alt="vinocafayate">              
+              <h6>$500</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Vino Chacabuco</h3>
+              <img src="img/chacabuco.jpg" alt="vinochacabuco">              
+              <h6>$600</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Vino Colon</h3>
+              <img class="img2" src="img/vino colon.jfif" alt="vinocolon">              
+              <h6>$400</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Vino Dilema</h3>
+              <img src="img/dilema.jpg" alt="vinodilema">              
+              <h6>$600</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Vino Dada</h3>
+              <img class="img2" src="img/dada.jpeg" alt="Vinodada">              
+              <h6>$600</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
+            <div>
+              <h3>Vino Latitud 33</h3>
+              <img class="img2" src="img/latitud.jpeg" alt="vinolatitud33">              
+              <h6>$900</h6>
+               <button class="boton" type="submit">comprar</button>
+            </div> 
           </div>
         </div>
     </section>
     <section>
     <h2>Promos y Especiales p/compartir</h2>
     <div class="promos">     
-        <div>
+        <div class="caja1">
             <h3>Milanesa para dos personas</h3>            
             <img src="img/mila.webp" alt="platodemilaconhuevo">
             <h6>$1200</h6>            
              <button class="boton" type="submit">comprar</button>
           </div> 
-          <div>
+          <div class="caja2">
             <h3>Napolitana para dos personas</h3>            
             <img src="img/mila.webp" alt="platodemilaconhuevo">
             <h6>$1500</h6>            
              <button class="boton" type="submit">comprar</button>
           </div> 
-          <div>
+          <div class="caja3">
             <h3>Lomo para dos personas</h3>            
             <img src="img/mila.webp" alt="platodemilaconhuevo">
             <h6>1800</h6>            
@@ -463,22 +616,55 @@
     </section>
     <section>
       <div class="redes">
-          <a class="links" href="https://www.facebook.com/"><img class="iconoface" src="img/facebook.png" alt="logofacebook"></a>        
-          <a class="links" href="https://www.pedidosya.com.ar/"><img class="iconoface" src="img/pedidosya.png" alt="logopedidosya"></a>
-          <a class="links" href="https://www.rappi.com.ar/"><img class="iconoface" src="img/logorapi.png" alt="logorappi"></a>
+          <a class="links" href=https://www.facebook.com/RestoLaRosadita Target="_blank"><img class="iconoface" src="img/facebook.png" alt="logofacebook"></a>        
+          <a class="links" href=https://www.pedidosya.com.ar/restaurantes/salta/la-rosadita-menu?search=la%20rosadita Target="_blank"><img class="iconoface" src="img/pedidosya.png" alt="logopedidosya"></a>
+          <a class="links" href=https://www.rappi.com.ar/restaurantes/142594 Target="_blank"><img class="iconoface" src="img/logorapi.png" alt="logorappi"></a>
       </div>  
     </section>  
   </main>  
     <hr>
     <footer>
+      <div class="form">
+        <h2>Contacto</h2>
+        <div>
+          <form action="">
+            <p>
+            <label for="Nombre">Nombre</label>
+            <input type="text">            
+            </p>
+            <p>
+              <label for="Numero">Celular</label>
+              <input type="text">
+            </p>
+            <p>
+            <label for="text">Dejanos tu Mensaje!!</label>
+            </p>
+            <textarea name="text" id="mensaje" cols="30" rows="3"></textarea>            
+            <div>
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div> 
+      <div class="mapa">
+        <h2>Encontranos aca</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.226681490393!2d-65.41184558445252!3d-24.78769031390293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3bc900e7519%3A0x76ed05b164159a61!2sLa%20Rosadita%20Restaurant!5e0!3m2!1ses!2sar!4v1655408711485!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div> 
+      <div> 
+        <h2>Pagina By Chino</h2>   
         <ol>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+            <li><a href="https://www.facebook.com/" Target="_blank" >Facebook</a></li>
+            <li><a href="https://www.instagram.com/" Target="_blank">Instagram</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox" Target="_blank">Gmail</a></li>
         </ol>
+      </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>
