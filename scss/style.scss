@@ -94,7 +94,6 @@ body{
 
 main{
 
-
     h2{
         display: flex;
         align-items: center;
@@ -126,6 +125,14 @@ main{
         text-align: center;
 
     }
+    #carouselExampleInterval{
+        margin-left: -50px;
+        animation: none;
+        transition: none; 
+        .img2{
+            height: 700px;
+        }            
+    }
     .boton{
         background-color: pink;
         transition-duration: 0.4s;
@@ -140,23 +147,23 @@ main{
     }    
     img{ 
         width: 350px;
+        height: 200px;
         padding-left: 30px;
         transition: 1s ease;
         &:hover{
             transform: scale(1.1);
         }
     }
-    .img2{
-        width: 320px;
-        height: 320px;
-    }
+    
+    
     .redes, .links{      
-        margin-left: 40px;
+        margin-left: 40px;        
         justify-content: center;
         display: flex;
     }
     .iconoface{
         width: 60px;
+        height: 40px;
         padding-top: 10px;
     }
 }
@@ -165,8 +172,8 @@ footer{
     background-color: black;
     padding: 20px;
     margin-top: 3px;  
-    display: flex;  
-    justify-content: space-around; 
+    display: flex;
+    justify-content: space-around;
         h2{
         color: white;
         }
@@ -195,14 +202,14 @@ footer{
 /******************Disposición menus*******************/
 
 
-      /******************Grids*******************/
+      
 main{
 
     .menu2{
         overflow-x: hidden
     }
     .carousel-item{
-        height: 700px;
+        height: 600px;
         width: 100%;
         }
     .comidas1{
@@ -250,7 +257,7 @@ main{
     }
     .promos{
         display: grid;
-        margin-left: 100px;
+        margin-left: 250px;
         margin-right: 100px;              
         grid-template-areas: "siete ocho nueve"  ;        
         .caja1{
@@ -272,103 +279,6 @@ main{
 
 /**************************************MEDIAQUERIES**********************************************/
 
-/************************Mediaqueries 768px**********************/
-
-
-@media (max-width: 768px){
-
-    .container1{
-        flex-direction: column;
-        text-align: center;        
-         nav, ul, li{          
-        flex-direction: column;          
-
-        }
-    }
-    
-    .imageMenu{
-        flex-direction:column; 
-        align-items: center;                        
-        a{
-            margin-right: -40px;
-            margin-left: -40px; 
-            .text2{
-                font-size: 3rem;
-            }                           
-        }
-           }    
-    .imgmenu2{
-        display: none;
-    }
-    
-    h1{
-        font-size: 1rem;      
-        padding-left: 40px;    
-    }
-    .text{
-        display: flex;
-        font-size: medium;
-        margin-right: 80px;
-    }
-    h2{
-        font-size: 30px;
-        text-align: center;
-    }
-        
-    h3{
-        text-align: center;
-    }
-    h6{
-        text-align: center;
-    }
-    main{                   
-        .comidas1{
-            grid-template-areas:"uno uno";
-            margin-left: 30px;             
-        }
-        .salp{
-            grid-template-areas: "dos dos";
-            margin-left: 15px;
-        }
-        .pyH{
-            grid-template-areas: "tres tres";
-            margin-left: 35px;      
-        }
-        .milas{
-            grid-template-areas: "cuatro cuatro";
-            margin-left: 35px; 
-        }
-        .helados{
-            grid-template-areas: "cinco cinco";
-            margin-left: 35px; 
-        }
-        .bebidascysin{
-            grid-template-areas:"seis seis";
-            margin-left: 45px; 
-        }
-        .promos{
-            grid-template-areas:"siete siete"
-                                "ocho ocho"
-                                "nueve nueve";
-            margin-left: 140px; 
-        }
-         .boton{
-            margin-left: 150px;
-        }   
-        
-    }
-    footer, ol{
-        flex-direction: column;
-        text-align: center;
-        iframe{
-            width: 100%;
-        }
-
-    }
-}
-
-
-
 
 @media only screen and (max-width: 480px){
 
@@ -381,12 +291,16 @@ main{
             visibility: hidden;
         }
     }
+   
     
     .imageMenu{
         flex-direction:column; 
         align-items: center;
-        a, .text2{
-            margin-left:-200px;           
+        .imageMenu_comidas, .imageMenu_minutas, .imageMenu_bebidas a{
+           margin-left: -190px ;                                        
+        }
+        .imageMenu_postres, .imageMenu_especiales, .imageMenu_pizzas a{
+            margin-left: -200px;
         }
            }    
     .imgmenu2{
@@ -402,7 +316,7 @@ main{
         display: flex;
         font-size: medium;
         margin-right: 80px;
-    }
+    }    
     h2{
         font-size: 30px;
         text-align: center;
@@ -414,7 +328,9 @@ main{
     h6{
         text-align: center;
     }
-    main{                   
+    main{
+         
+        grid-template-columns: auto;                  
         .comidas1{
             grid-template-areas:"uno";
             margin-left: 50px;             
@@ -448,7 +364,9 @@ main{
          .boton{
             margin-left: 150px;
         }   
-        
+        .redes{
+            margin-right: 85px;
+        }
     }
     footer, ol{
         flex-direction: column;
