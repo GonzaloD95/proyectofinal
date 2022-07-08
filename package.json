@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GonzaloD95/desafio_grid/issues"
+    "url": "https://github.com/GonzaloD95/proyectofinal.git/issues"
   },
-  "homepage": "https://github.com/GonzaloD95/desafio_grid#readme",
+  "homepage": "https://github.com/GonzaloD95/proyectofinal.git#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
